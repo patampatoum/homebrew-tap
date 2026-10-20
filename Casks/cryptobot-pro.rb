@@ -1,13 +1,13 @@
 cask "cryptobot-pro" do
-  version "3.0.6"
+  version "3.0.7"
 
   on_arm do
-    sha256 "18ed918e349bc3d4939204541b5d39e4856656ed2f55349ec9726f6fb09ac48e"
+    sha256 "2f105af0cc8ec9a96bab92d33a9ea7d459bbdb05555408ded483942aabd62012"
 
     url "https://github.com/patampatoum/cryptobot-pro-releases/releases/download/v#{version}/CryptoBot-Pro-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "0a2fec231473454264d4f19cc028ac5e5df288bc49e06367e12ad2ef165bf802"
+    sha256 "ffecf06b03d514e333acb4c97f04b450f7b95cac47b15131750406c40c3798cd"
 
     url "https://github.com/patampatoum/cryptobot-pro-releases/releases/download/v#{version}/CryptoBot-Pro-#{version}.dmg"
   end
